@@ -1,0 +1,27 @@
+class Human{
+  constructor(gender,height) {
+    this.gender = gender;
+    this.height = height;
+  }
+  getGender = () => {
+    return this.gender;
+  }
+}
+class Person extends Human {
+  constructor(name, surname, age, gender, height) {
+    super(gender, height);//equivale al constructor del extends
+    this.name = name;
+    this.surname = surname;
+    this.age = age;
+  }
+  
+  getAge = () => {
+    return this.age;
+  }
+}
+
+let ezequiel = new Person("Ezequiel", "Dapena", 21, "male", 1.78);
+
+//ezequiel.getAge();
+
+console.log(ezequiel);

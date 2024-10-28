@@ -1,0 +1,23 @@
+1 - Compilación:
+
+    La compilación implica tomar un código fuente escrito en un lenguaje de alto nivel, como C, C++, Java, etc.,
+    y traducirlo directamente a código de máquina (binario) que puede ser ejecutado por la computadora.
+
+    El compilador realiza una serie de pasos, como análisis léxico, análisis sintáctico, optimización de código y generación de código, para producir el ejecutable final.
+
+    Los lenguajes compilados suelen ser más eficientes en tiempo de ejecución ya que el código generado está específicamente adaptado para la arquitectura de la máquina objetivo.
+
+2 - Transpilación:
+
+    La transpilación implica tomar un código fuente escrito en un lenguaje de programación y convertirlo en otro código fuente en un lenguaje diferente,
+    pero a un nivel de abstracción similar o distinto.
+
+    A menudo se utiliza cuando se quiere escribir código en un lenguaje moderno y luego convertirlo a una versión más antigua del mismo lenguaje,
+    o cuando se quiere traducir a otro lenguaje de programación por completo.
+
+    Los transpiladores realizan procesos similares a los compiladores, pero no generan código de máquina, sino otro código fuente en un lenguaje diferente.
+
+    RESUMEN:
+
+    En resumen, la compilación se refiere a la traducción de código a código de máquina,
+    mientras que la transpilación implica la traducción de código a otro código fuente en un nivel de abstracción similar o diferente.

@@ -1,0 +1,43 @@
+Single Responsability
+Open-Closed
+Liskov Substitution
+Interface segregation
+Dependency Inversion
+
+Single Responsability:
+    Un componente debe hacer una sola cosa y hacerla bien. Debería estar enfocado en una tarea específica,
+    como renderizar una parte de la interfaz de usuario o manejar un estado particular.
+    
+    Reducir la responsabilidad de componentes, funciones, customHooks separandolo
+
+    Un claro ejemplo puede ser un componente en el cual un useEffect hace un fetch, maneja esa data y retorna segun esto,
+    se podria separar en un customHook y que el componente solo muestre la informacion
+
+
+Open-Closed
+    La creación de componentes que sean fácilmente extensibles mediante la composición y la herencia <>{children}</>,
+    pero que no necesiten modificaciones directas para adaptarse a nuevos requisitos.
+
+    Abierto para que sea escalable
+    Cerrado para modificaciones
+
+    Se refiere a que un componente sea escalable desde afuera sin modificar la logica del mismo
+
+Liskov Substitution
+    Los componentes deben poder ser reemplazados por otros componentes que cumplan con la misma interfaz y comportamiento esperado.
+
+    Los componente provenientes de uno de orden superior ( que extienden de otro ) deben ser reemplazables por estos sin generar problemas
+    Es decir, que se puede usar un tipo o un subtipo sin conflictos
+
+Interface segregation
+    Creación de componentes que exponen interfaces específicas y cohesivas,
+    en lugar de interfaces monolíticas que contienen métodos o propiedades innecesarias para un cliente particular.
+
+    El tipado solo deber tener las propiedades requeridas
+    Al enviar propiedades solo se deben enviar aquellas que el componente realmente utiliza
+
+Dependency Inversion
+    Este principio establece que los módulos de alto nivel no deben depender de módulos de bajo nivel, sino que ambos deben depender de abstracciones.
+
+
+

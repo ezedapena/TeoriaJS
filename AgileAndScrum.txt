@@ -1,0 +1,30 @@
+Prácticas comunes de Agile:
+
+1. Iteraciones cortas: Agile se basa en ciclos de desarrollo cortos llamados iteraciones o sprints. Estos generalmente duran de una a cuatro semanas y permiten a los equipos entregar software funcional de manera regular.
+
+2. Colaboración cercana con el cliente: Agile promueve la colaboración continua entre el equipo de desarrollo y el cliente o el usuario final. Esto garantiza que el producto se desarrolle de acuerdo con las necesidades y expectativas del cliente.
+
+3. Priorización del trabajo: Los equipos Agile utilizan técnicas como la planificación del backlog y la priorización constante para asegurarse de que siempre están trabajando en las características más importantes y de mayor valor para el cliente.
+
+4. Entrega incremental: En lugar de esperar hasta que todo el proyecto esté completo para entregarlo, Agile aboga por la entrega incremental de funcionalidades. Esto permite obtener retroalimentación temprana y hacer ajustes según sea necesario.
+
+5. Enfoque en la calidad: Agile promueve prácticas de desarrollo de software que priorizan la calidad, como la integración continua, las pruebas automatizadas y la revisión de código. Esto asegura que el producto final sea confiable y cumpla con los estándares de calidad esperados.
+
+6. Adaptabilidad: Agile reconoce que los requisitos y las circunstancias pueden cambiar a lo largo del proyecto. Por lo tanto, fomenta la adaptabilidad y la capacidad de respuesta a los cambios, lo que permite a los equipos ajustar su enfoque según sea necesario para cumplir con los objetivos del proyecto.
+
+
+// 
+
+Prácticas comunes de Scrum:
+
+1. Roles definidos: Scrum define tres roles principales: el Product Owner, el Scrum Master y el Equipo de Desarrollo. Cada rol tiene responsabilidades específicas y contribuye al éxito del proyecto.
+
+2. Reuniones regulares: Scrum utiliza una serie de reuniones regulares para facilitar la comunicación y la colaboración dentro del equipo. Estas reuniones incluyen la planificación de sprint, la revisión de sprint y la retrospectiva de sprint.
+
+3. Backlog del producto: El Product Owner es responsable de mantener el backlog del producto, que es una lista prioritaria de todas las funcionalidades deseadas para el producto. El backlog se actualiza regularmente para reflejar las necesidades cambiantes del cliente.
+
+4. Sprints: Scrum organiza el trabajo en iteraciones llamadas sprints, que generalmente duran de una a cuatro semanas. Durante cada sprint, el equipo se compromete a completar una cantidad específica de trabajo del backlog del producto.
+
+5. Incremento de producto potencialmente entregable: Al final de cada sprint, el equipo entrega un incremento potencialmente entregable del producto, que es una versión funcional y probada del software que cumple con los criterios de aceptación definidos por el Product Owner.
+
+6. Inspección y adaptación: Scrum fomenta la inspección continua del progreso del equipo y la adaptación de su enfoque para mejorar la eficacia y la calidad. Esto se logra a través de la revisión de sprint y la retrospectiva de sprint, donde el equipo reflexiona sobre su desempeño y hace ajustes según sea necesario.

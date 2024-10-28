@@ -1,0 +1,30 @@
+//Spread
+const numbers = [21,32,22,17];
+
+const spreadNumbers = [...numbers, 32, 18, 19];
+
+const nonSpreadNumbers = [numbers, 32, 18, 19];
+
+//console.log(spreadNumbers, nonSpreadNumbers);
+
+const object = {
+  id: 0,
+  weight: 71.5,
+}
+
+const updatedObject = {
+  ...object,
+  price: 750
+  
+}
+
+//console.log(updatedObject);
+
+//Rest
+
+const filter = (...args) => {
+  return args.filter(e => e === 1);
+ 
+}
+
+console.log(filter(1,2,3,1));
