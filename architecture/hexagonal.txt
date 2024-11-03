@@ -1,0 +1,21 @@
+La arquitectura hexagonal, también conocida como arquitectura de puertos y adaptadores, busca desacoplar el núcleo de la lógica de negocio de un sistema de sus dependencias externas. Esto permite que la aplicación sea más flexible, fácil de mantener y adaptable a cambios en sus componentes externos sin afectar el núcleo. Aquí tienes un resumen de cómo funciona:
+
+1. División del núcleo de la aplicación y los componentes externos
+La lógica de negocio o el núcleo de la aplicación está en el centro, en una capa independiente de cualquier infraestructura externa.
+Las dependencias externas (bases de datos, APIs, interfaces de usuario) se conectan al núcleo a través de puertos y adaptadores.
+2. Puertos
+Los puertos son interfaces que definen cómo se puede interactuar con el núcleo de la aplicación.
+Existen dos tipos de puertos:
+Puertos de entrada: Definen cómo los usuarios o aplicaciones externas pueden interactuar con el núcleo. Estos puertos permiten ejecutar operaciones de la lógica de negocio.
+Puertos de salida: Definen cómo el núcleo se comunica con el exterior, como bases de datos o servicios externos.
+3. Adaptadores
+Los adaptadores implementan los puertos y se encargan de conectar la lógica de negocio con las dependencias externas.
+Al estar separados, se pueden cambiar o adaptar estas dependencias sin afectar el núcleo, por ejemplo, cambiando una base de datos o un servicio externo sin alterar la lógica central.
+4. Independencia y desacoplamiento
+El núcleo de la aplicación permanece aislado y no depende de ninguna implementación específica de los adaptadores.
+Esto permite realizar pruebas unitarias del núcleo sin necesidad de conectarse a servicios externos.
+5. Ventajas
+Flexibilidad: Los adaptadores se pueden cambiar o actualizar sin afectar el núcleo.
+Testabilidad: La lógica de negocio es independiente, lo que facilita las pruebas.
+Escalabilidad: Permite que la arquitectura crezca sin comprometer la calidad ni crear una dependencia rígida entre componentes.
+En resumen, la arquitectura hexagonal organiza el software de manera que el núcleo de negocio sea independiente de sus dependencias externas, facilitando la flexibilidad, el mantenimiento y las pruebas.
